@@ -130,7 +130,7 @@
 
                 const city = document.getElementById('city').value;
                 const apiKey = '632a2fbfda6946208f450402231609'; // Replace with your actual API key
-                const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
+                const apiUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
 
                 fetch(apiUrl)
                     .then((response) => response.json())
